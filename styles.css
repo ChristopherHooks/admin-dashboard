@@ -58,6 +58,15 @@
     gap: 10px;
 }
 
+.item a {
+    text-decoration: none;
+    color: white;
+}
+
+.item a:hover {
+    color: #d0def5;
+}
+
 
 .header {
     background-color: #d0def5;
@@ -67,9 +76,19 @@
     grid-template-rows: 1fr 1fr;
 }
 
-.search {
+
+.top {
     background-color: #d6cdf8;
+    font-size: 48px;
+    font-variation-settings: 'OPSZ' 48;
+    display: flex;
 }
+
+.search {}
+
+.info {}
+
+
 
 
 .content {
