@@ -24,28 +24,28 @@
 }
 
 .logo {
-display: flex;
-height: 86px;
-justify-content: center;  
-align-items: center;
-gap: 5px;
+    display: flex;
+    height: 86px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
-.logo span{
+.logo span {
     align-content: center;
     font-size: 40px;
-  font-variation-settings: 'OPSZ' 40;
+    font-variation-settings: 'OPSZ' 48;
 }
 
 .menu {
     /* background-color: antiquewhite;
     color: black; */
-    
+
 }
 
-.items{
-    display:grid;
-    grid-template-rows: repeat(6,1fr);
+.items {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
     grid-template-columns: 1fr;
     gap: 20px;
     align-items: center;
@@ -53,7 +53,7 @@ gap: 5px;
     list-style: none;
 }
 
-.item{
+.item {
     display: flex;
     gap: 10px;
 }
