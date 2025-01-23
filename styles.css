@@ -1,3 +1,20 @@
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +24,10 @@
 .container {
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 250px 3fr;
     grid-template-rows: 1fr 5fr;
+    font-family: "Roboto", system-ui, sans-serif;
+    font-weight: bold;
 
 }
 
@@ -16,8 +35,34 @@
     background-color: #14005e;
     color: white;
     grid-row: 1/5;
+    display: flex;
+    flex-direction: column;
 
 }
+
+.logo {
+    
+    height: 86px;
+    align-content: center;
+    justify-items:center;
+    
+}
+
+.menu {
+    /* background-color: antiquewhite;
+    color: black; */
+    
+}
+
+.items{
+    display:grid;
+    grid-template-rows: repeat(6,1fr);
+    gap: 20px;
+    align-items: center;
+    padding: 50px;
+    list-style: none;
+}
+
 
 .header {
     background-color: #d0def5;
@@ -52,7 +97,7 @@
 
 .right-side {
     background-color: #14005e;
-    color:white;
+    color: white;
     grid-column: 3/4;
     grid-row: 1/4;
 }
