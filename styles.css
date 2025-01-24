@@ -232,6 +232,12 @@
     gap: 10px;
     padding: 20px;
     border-radius: 10px;
+    border-left: 8px solid #daa425;
+}
+
+.article p {
+    font-weight: normal;
+    padding-top: 20px;
 }
 
 .right-side {
